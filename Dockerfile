@@ -82,7 +82,7 @@ RUN set -x \
         php7-simplexml \
         php7-tokenizer \
         php7-xmlwriter \
-        libssh2-1.8.0-r4 \
+        libssh2 \
     && ln -s /usr/sbin/php-fpm7 /usr/sbin/php-fpm \
     && pecl channel-update pecl.php.net \
     && pecl install ssh2-1.1.1 \
